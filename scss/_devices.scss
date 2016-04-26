@@ -1,0 +1,59 @@
+// SCOTTSHEALY - GITHUB LANDING PAGE
+// DEVICE DISPLAY PROPERTIES
+
+// HIDE ELEMENTS ON MOBILE DEVICES
+.hide-mobile {
+	display: none !important;
+
+	@media screen and (min-width: 320px) {} // END 320px
+	@media screen and (min-width: 375px) {} // END 375px
+	@media screen and (min-width: 425px) {} // END 425px
+	@media screen and (min-width: 500px) {} // END 500px
+	@media screen and (min-width: 700px) {
+		display: inline !important;
+	} // END 700px
+	@media screen and (min-width: 768px) {} // END 768px
+	@media screen and (min-width: 900px) {} // END 900px
+	@media screen and (min-width: 1024px) {} // END 1024px
+	@media screen and (min-width: 1200px) {} // END 1200px
+	@media screen and (min-width: 1440px) {} // END 1440px
+	@media screen and (min-width: 1920px) {} // END 1920px
+} // END HIDE-MOBILE
+
+// HIDE ELEMENTS ON TABLET DEVICES
+.hide-tablet {
+	display: none !important;
+
+	@media screen and (min-width: 320px) {} // END 320px
+	@media screen and (min-width: 375px) {} // END 375px
+	@media screen and (min-width: 425px) {} // END 425px
+	@media screen and (min-width: 500px) {} // END 500px
+	@media screen and (min-width: 700px) {} // END 700px
+	@media screen and (min-width: 768px) {} // END 768px
+	@media screen and (min-width: 900px) {
+		display: inline !important;
+	} // END 900px
+	@media screen and (min-width: 1024px) {} // END 1024px
+	@media screen and (min-width: 1200px) {} // END 1200px
+	@media screen and (min-width: 1440px) {} // END 1440px
+	@media screen and (min-width: 1920px) {} // END 1920px
+} // END HIDE-TABLET
+
+// HIDE ELEMENTS ON DESKTOP DEVICES
+.hide-desktop {
+	display: inline !important;
+
+	@media screen and (min-width: 320px) {} // END 320px
+	@media screen and (min-width: 375px) {} // END 375px
+	@media screen and (min-width: 425px) {} // END 425px
+	@media screen and (min-width: 500px) {} // END 500px
+	@media screen and (min-width: 700px) {} // END 700px
+	@media screen and (min-width: 768px) {} // END 768px
+	@media screen and (min-width: 900px) {} // END 900px
+	@media screen and (min-width: 1024px) {
+		display: inline !important;
+	} // END 1024px
+	@media screen and (min-width: 1200px) {} // END 1200px
+	@media screen and (min-width: 1440px) {} // END 1440px
+	@media screen and (min-width: 1920px) {} // END 1920px
+} // END HIDE-DESKTOP

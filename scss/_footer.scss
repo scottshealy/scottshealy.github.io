@@ -1,0 +1,192 @@
+// SCOTTSHEALY - GITHUB LANDING PAGE
+// FOOTER STYLES
+
+#footer-primary {
+	height: auto;
+	width: 100%;
+	display: block;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	background-image: url("../img/footer/scottshealy-footer.svg");
+	background-size: 125%;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+
+	.content-wrapper {
+		padding-top: 10%;
+		padding-bottom: 4%;
+	} // END CONTENT-WRAPPER
+
+	@media screen and (min-width: 320px) {} // END 320px
+	@media screen and (min-width: 375px) {} // END 375px
+	@media screen and (min-width: 425px) {} // END 425px
+	@media screen and (min-width: 500px) {} // END 500px
+	@media screen and (min-width: 700px) {} // END 700px
+	@media screen and (min-width: 768px) {
+		.content-wrapper {
+			padding-top: 8%;
+			padding-bottom: 3%;
+		} // END CONTENT-WRAPPER
+	} // END 768px
+	@media screen and (min-width: 900px) {
+		.content-wrapper {
+			padding-top: 8%;
+			padding-bottom: 2%;
+		} // END CONTENT-WRAPPER
+	} // END 900px
+	@media screen and (min-width: 1024px) {
+		.content-wrapper {
+			padding-top: 8%;
+			padding-bottom: 2%;
+		} // END CONTENT-WRAPPER
+	} // END 1024px
+	@media screen and (min-width: 1200px) {
+		.content-wrapper {
+			padding-top: 7%;
+			padding-bottom: 2%;
+		} // END CONTENT-WRAPPER
+	} // END 1200px
+	@media screen and (min-width: 1440px) {
+		.content-wrapper {
+			padding-top: 6%;
+			padding-bottom: 1%;
+		} // END CONTENT-WRAPPER
+	} // END 1440px
+	@media screen and (min-width: 1920px) {
+		.content-wrapper {
+			padding-top: 6%;
+			padding-bottom: 1%;
+		} // END CONTENT-WRAPPER
+	} // END 1920px
+} // END FOOTER-PRIMARY
+
+.footer-disclosures {
+	height: auto;
+	width: 50%;
+	display: block;
+	margin: 0% auto;
+
+	h6 {
+		font-size: 0.60em;
+		font-weight: 300;
+		text-align: center;
+		color: #ffffff;
+
+		&:first-child {
+			font-weight: 400;
+			text-transform: uppercase;
+			margin-bottom: 3px;
+		} // END FIRST-CHILD H6
+
+		@media screen and (min-width: 320px) {} // END 320px
+		@media screen and (min-width: 375px) {
+			font-size: 0.70em;
+		} // END 375px
+		@media screen and (min-width: 425px) {} // END 425px
+		@media screen and (min-width: 500px) {} // END 500px
+		@media screen and (min-width: 700px) {} // END 700px
+		@media screen and (min-width: 768px) {
+			font-size: 0.80em;
+		} // END 768px
+		@media screen and (min-width: 900px) {
+			font-size: 0.90em;
+		} // END 900px
+		@media screen and (min-width: 1024px) {
+			font-size: 1.00em;
+		} // END 1024px
+		@media screen and (min-width: 1200px) {} // END 1200px
+		@media screen and (min-width: 1440px) {} // END 1440px
+		@media screen and (min-width: 1920px) {} // END 1920px
+	} // END H6
+
+	@media screen and (min-width: 320px) {} // END 320px
+	@media screen and (min-width: 375px) {} // END 375px
+	@media screen and (min-width: 425px) {} // END 425px
+	@media screen and (min-width: 500px) {} // END 500px
+	@media screen and (min-width: 700px) {} // END 700px
+	@media screen and (min-width: 768px) {} // END 768px
+	@media screen and (min-width: 900px) {} // END 900px
+	@media screen and (min-width: 1024px) {} // END 1024px
+	@media screen and (min-width: 1200px) {} // END 1200px
+	@media screen and (min-width: 1440px) {} // END 1440px
+	@media screen and (min-width: 1920px) {} // END 1920px
+} // END FOOTER-DISCLOSURES
+
+#footer-icons {
+	height: auto;
+	width: 50%;
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	list-style: none;
+	text-align: center;
+
+	li {
+		display: inline-block;
+		padding: 0px 5px;
+	} // END LI
+
+	a {
+		height: auto;
+		width: 100%;
+		display: block;
+		font-size: 0.90em;
+		color: #ffffff;
+		text-decoration: none;
+
+		@media screen and (min-width: 320px) {} // END 320px
+		@media screen and (min-width: 375px) {} // END 375px
+		@media screen and (min-width: 425px) {} // END 425px
+		@media screen and (min-width: 500px) {} // END 500px
+		@media screen and (min-width: 700px) {} // END 700px
+		@media screen and (min-width: 768px) {} // END 768px
+		@media screen and (min-width: 900px) {} // END 900px
+		@media screen and (min-width: 1024px) {
+			font-size: 1.00em;
+		} // END 1024px
+		@media screen and (min-width: 1200px) {} // END 1200px
+		@media screen and (min-width: 1440px) {} // END 1440px
+		@media screen and (min-width: 1920px) {} // END 1920px
+	} // END A
+
+	#footer-phone {
+		display: none;
+	} // END PHONE
+
+	#footer-email {
+		display: inline-block;
+	} // END EMAIL
+
+	#footer-website {
+		display: none;
+	} // END WEBSITE
+
+	#footer-resume {
+		display: none;
+	} // END RESUME
+
+	#footer-calendly {
+		display: inline-block;
+	} // END CALENDLY
+
+	#footer-skype {
+		display: none;
+	} // END SKYPE
+
+	#footer-linkedin {
+		display: inline-block;
+	} // END LINKEDIN
+
+	#footer-github {
+		display: inline-block;
+	} // END GITHUB
+
+	#footer-behance {
+		display: none;
+	} // END BEHANCE
+
+	#footer-dribbble {
+		display: none;
+	} // END DRIBBBLE
+} // END FOOTER-LINKS

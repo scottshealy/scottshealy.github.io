@@ -1,0 +1,283 @@
+// SCOTTSHEALY - GITHUB LANDING PAGE
+// HEADER STYLES
+// DISPLAY RESPONSIVE MENU TO 900px
+
+#header-primary {
+	height: 40px;
+	width: 100%;
+	display: block;
+	position: fixed;
+	background-color: $resume-blue-10;
+	border-bottom: 2px solid $resume-orange-10;
+	padding: 10px;
+	box-sizing: border-box;
+	z-index: 100;
+
+	@media screen and (min-width: 900px) {} // END 900px
+} // END HEADER-PRIMARY
+
+#header-logo {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	float: left;
+
+	a, img {
+		height: 20px;
+		max-width: 100%;
+		display: block;
+	} // END A, IMG
+
+	@media screen and (min-width: 900px) {} // END 900px
+} // END HEADER-LOGO
+
+#header-nav {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	float: right;
+	text-align: right;
+
+	@media screen and (min-width: 900px) {} // END 900px
+} // END HEADER-NAV
+
+#header-mobile-button {
+	height: 20px;
+	width: auto;
+	display: block;
+	text-align: right;
+
+	&:hover {
+		cursor: pointer;
+	} // END HOVER
+
+	i {
+		font-size: 1.00em;
+		line-height: 20px;
+		color: #ffffff;
+	} // END ICON
+
+	@media screen and (min-width: 900px) {
+		display: none;
+	} // END 900px
+} // END HEADER-MOBILE-BUTTON
+
+#header-nav-menu {
+	#header-nav-list {
+		height: auto;
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		display: none;
+		margin-top: 8px;
+		background-color: $resume-blue-9;
+		border-bottom: 2px solid $resume-orange-10;
+		list-style: none;
+
+		&.active {
+			display: block;
+		} // END ACTIVE CLASS
+
+		@media screen and (min-width: 900px) {
+			width: 100%;
+			position: static;
+			display: block;
+			margin: 0px;
+			background-color: transparent;
+			border: none;
+		} // END 900px
+
+		li {
+			height: auto;
+			width: 100%;
+			display: block;
+			border-bottom: 1px solid $resume-blue-8;
+			text-align: center;
+
+			&:last-child {
+				border-bottom: none;
+			} // END LAST-CHILD LI
+
+			@media screen and (min-width: 900px) {
+				height: auto;
+				width: auto;
+				display: inline-block;
+				border: none;
+				text-align: center;
+			} // END 900px
+
+			a {
+				height: 100%;
+				width: 100%;
+				display: block;
+				padding: 10px;
+				box-sizing: border-box;
+				font-size: 0.90em;
+				font-weight: 100;
+				text-transform: uppercase;
+				letter-spacing: 1.50px;
+				color: #ffffff;
+				text-decoration: none;
+
+				&:hover {
+					background-color: $resume-blue-8;
+					cursor: pointer;
+				} // END HOVER A
+
+				@media screen and (min-width: 900px) {
+					padding: 0px 10px;
+					border: 1px solid transparent;
+
+					&:hover {
+						background-color: transparent;
+						border: 1px solid $resume-blue-8;
+					} // END HOVER A
+				} // END 900px
+			} // END A
+		} // END LI
+	} // END HEADER-NAV-LIST
+
+	.header-icon {
+		padding-right: 5px;
+		text-align: center;
+	} // END HEADER-ICON
+
+	.header-text {} // END HEADER-TEXT
+} // END HEADER-NAV-MENU
+
+// LINK DISPLAY PROPERTIES
+#header-nav-menu {
+	#link-phone {
+		display: block;
+
+		.header-icon {} // END HEADER-ICON
+		.header-text {} // END HEADER-TEXT
+
+		@media screen and (min-width: 700px) {
+			display: none !important;
+
+			.header-icon {} // END HEADER-ICON
+			.header-text {} // END HEADER-TEXT
+		} // END 900px
+	} // END PHONE
+
+	#link-email {
+		display: block;
+		
+		.header-icon {} // END HEADER-ICON
+		.header-text {} // END HEADER-TEXT
+
+		@media screen and (min-width: 900px) {
+			.header-icon {
+				display: none;
+			} // END HEADER-ICON
+			.header-text {} // END HEADER-TEXT
+		} // END 900px
+	} // END EMAIL
+
+	#link-website {
+		display: none !important;
+		
+		.header-icon {} // END HEADER-ICON
+		.header-text {} // END HEADER-TEXT
+
+		@media screen and (min-width: 900px) {
+			.header-icon {
+				display: none;
+			} // END HEADER-ICON
+			.header-text {} // END HEADER-TEXT
+		} // END 900px
+	} // END WEBSITE
+
+	#link-resume {
+		display: none !important;
+		
+		.header-icon {} // END HEADER-ICON
+		.header-text {} // END HEADER-TEXT
+
+		@media screen and (min-width: 900px) {
+			.header-icon {
+				display: none;
+			} // END HEADER-ICON
+			.header-text {} // END HEADER-TEXT
+		} // END 900px
+	} // END RESUME
+
+	#link-calendly {
+		display: block;
+		
+		.header-icon {} // END HEADER-ICON
+		.header-text {} // END HEADER-TEXT
+
+		@media screen and (min-width: 900px) {
+			.header-icon {
+				display: none;
+			} // END HEADER-ICON
+			.header-text {} // END HEADER-TEXT
+		} // END 900px
+	} // END CALENDLY
+
+	#link-skype {
+		display: none !important;
+		
+		.header-icon {} // END HEADER-ICON
+		.header-text {} // END HEADER-TEXT
+
+		@media screen and (min-width: 900px) {
+			.header-icon {} // END HEADER-ICON
+			.header-text {} // END HEADER-TEXT
+		} // END 900px
+	} // END SKYPE
+
+	#link-linkedin {
+		display: block;
+		
+		.header-icon {} // END HEADER-ICON
+		.header-text {} // END HEADER-TEXT
+
+		@media screen and (min-width: 900px) {
+			.header-icon {} // END HEADER-ICON
+			.header-text {
+				display: none;
+			} // END HEADER-TEXT
+		} // END 900px
+	} // END LINKEDIN
+
+	#link-github {
+		display: block;
+		
+		.header-icon {} // END HEADER-ICON
+		.header-text {} // END HEADER-TEXT
+
+		@media screen and (min-width: 900px) {
+			display: none !important;
+
+			.header-icon {} // END HEADER-ICON
+			.header-text {} // END HEADER-TEXT
+		} // END 900px
+	} // END GITHUB
+
+	#link-behance {
+		display: none !important;
+		
+		.header-icon {} // END HEADER-ICON
+		.header-text {} // END HEADER-TEXT
+
+		@media screen and (min-width: 900px) {
+			.header-icon {} // END HEADER-ICON
+			.header-text {} // END HEADER-TEXT
+		} // END 900px
+	} // END BEHANCE
+
+	#link-dribbble {
+		display: none !important;
+		
+		.header-icon {} // END HEADER-ICON
+		.header-text {} // END HEADER-TEXT
+
+		@media screen and (min-width: 900px) {
+			.header-icon {} // END HEADER-ICON
+			.header-text {} // END HEADER-TEXT
+		} // END 900px
+	} // END DRIBBBLE
+} // END HEADER-NAV-MENU

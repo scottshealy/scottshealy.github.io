@@ -1,0 +1,180 @@
+// SCOTTSHEALY - GITHUB LANDING PAGE
+// HOME PAGE STYLES
+
+#home {
+	#home-banner {
+		height: 400px;
+		width: 100%;
+		display: block;
+		position: relative;
+		padding: 10px;
+		padding-top: 50px;
+		box-sizing: border-box;
+		background-image: url("../img/banner/banner_home-logo_1920x1118.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 40%;
+		border-bottom: 2px solid $resume-orange-10;
+		z-index: -100;
+
+		@media screen and (min-width: 320px) {} // END 320px
+		@media screen and (min-width: 375px) {} // END 375px
+		@media screen and (min-width: 425px) {} // END 425px
+		@media screen and (min-width: 500px) {} // END 500px
+		@media screen and (min-width: 700px) {} // END 700px
+		@media screen and (min-width: 768px) {} // END 768px
+		@media screen and (min-width: 900px) {} // END 900px
+		@media screen and (min-width: 1024px) {
+			height: 450px;
+		} // END 1024px
+		@media screen and (min-width: 1200px) {
+			height: 525px;
+		} // END 1200px
+		@media screen and (min-width: 1440px) {
+			height: 600px;
+		} // END 1440px
+		@media screen and (min-width: 1920px) {
+			height: 720px;
+			background-position: 50% 45%;
+		} // END 1920px
+
+		.banner-text {
+			height: auto;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			vertical-align: bottom;
+			padding: 3%;
+			box-sizing: border-box;
+			background-color: rgba($resume-blue-18, 0.80);
+			border: 1px solid $grayscale-14;
+		} // END BANNER-TEXT
+
+		#tagline {
+			h1 {
+				font-size: 1.50em;
+				font-weight: 100;
+				text-align: left;
+				color: #ffffff;
+				margin-bottom: 10px;
+
+				@media screen and (min-width: 320px) {} // END 320px
+				@media screen and (min-width: 375px) {} // END 375px
+				@media screen and (min-width: 425px) {} // END 425px
+				@media screen and (min-width: 500px) {} // END 500px
+				@media screen and (min-width: 700px) {} // END 700px
+				@media screen and (min-width: 768px) {} // END 768px
+				@media screen and (min-width: 900px) {} // END 900px
+				@media screen and (min-width: 1024px) {
+					font-size: 1.75em;
+				} // END 1024px
+				@media screen and (min-width: 1200px) {
+					font-size: 2.00em;
+				} // END 1200px
+				@media screen and (min-width: 1440px) {
+					font-size: 2.25em;
+				} // END 1440px
+				@media screen and (min-width: 1920px) {
+					font-size: 3.00em;
+				} // END 1920px
+			} // END H1
+		} // END TAGLINE
+
+		#profile {
+			p {
+				font-size: 0.80em;
+				font-weight: 100;
+				line-height: 1.25;
+				text-align: left;
+				color: #ffffff;
+
+				@media screen and (min-width: 320px) {} // END 320px
+				@media screen and (min-width: 375px) {} // END 375px
+				@media screen and (min-width: 425px) {} // END 425px
+				@media screen and (min-width: 500px) {} // END 500px
+				@media screen and (min-width: 700px) {} // END 700px
+				@media screen and (min-width: 768px) {} // END 768px
+				@media screen and (min-width: 900px) {} // END 900px
+				@media screen and (min-width: 1024px) {
+					font-size: 0.90em;
+				} // END 1024px
+				@media screen and (min-width: 1200px) {
+					font-size: 1.00em;
+				} // END 1200px
+				@media screen and (min-width: 1440px) {
+					font-size: 1.10em;
+				} // END 1440px
+				@media screen and (min-width: 1920px) {
+					font-size: 1.75em;
+				} // END 1920px
+			} // END P
+		} // END PROFILE
+	} // END HOME-BANNER
+
+	#portfolio {
+		height: auto;
+		padding: 10px;
+		box-sizing: border-box;
+	} // END PORTFOLIO
+
+	.portfolio-card {
+		height: auto;
+		display: inline-block;
+		float: left;
+		padding: 5px;
+		box-sizing: border-box;
+
+		&:hover {
+			background-color: #ffffff;
+			opacity: 0.90;
+			cursor: pointer;
+		} // END HOVER
+
+		a {
+			height: auto;
+			width: 100%;
+			display: block;
+			text-decoration: none;
+			color: #ffffff;
+		} // END A
+
+		img {
+			height: auto;
+			width: 100%;
+			display: block;
+		} // END IMG
+
+		h5 {
+			height: auto;
+			width: 100%;
+			display: block;
+			padding: 3%;
+			box-sizing: border-box;
+			background-color: $resume-orange-10;
+			font-size: 0.80em;
+			font-weight: 300;
+			text-align: center;
+			color: #ffffff;
+
+			@media screen and (min-width: 320px) {} // END 320px
+			@media screen and (min-width: 375px) {} // END 375px
+			@media screen and (min-width: 425px) {} // END 425px
+			@media screen and (min-width: 500px) {} // END 500px
+			@media screen and (min-width: 700px) {} // END 700px
+			@media screen and (min-width: 768px) {} // END 768px
+			@media screen and (min-width: 900px) {} // END 900px
+			@media screen and (min-width: 1024px) {
+				font-size: 0.90em;
+			} // END 1024px
+			@media screen and (min-width: 1200px) {
+				font-size: 1.00em;
+			} // END 1200px
+			@media screen and (min-width: 1440px) {
+				font-size: 1.10em;
+			} // END 1440px
+			@media screen and (min-width: 1920px) {
+				font-size: 1.20em;
+			} // END 1920px
+		} // END H5
+	} // END PORTFOLIO-CARD
+} // END HOME
