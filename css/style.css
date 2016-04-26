@@ -431,8 +431,7 @@ html {
     height: auto;
     position: absolute;
     bottom: 0;
-    right: 0;
-    vertical-align: bottom;
+    right: 10px;
     padding: 3%;
     box-sizing: border-box;
     background-color: rgba(10, 25, 45, 0.8);
