@@ -431,11 +431,14 @@ html {
     height: auto;
     position: absolute;
     bottom: 0;
-    right: 10px;
+    right: 0px;
     padding: 3%;
     box-sizing: border-box;
     background-color: rgba(10, 25, 45, 0.8);
     border: 1px solid #4d4c4d; }
+    @media screen and (min-width: 500px) {
+      #home #home-banner .banner-text {
+        right: 10px; } }
   #home #home-banner #tagline h1 {
     font-size: 1.50em;
     font-weight: 100;
