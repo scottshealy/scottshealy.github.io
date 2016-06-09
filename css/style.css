@@ -266,7 +266,7 @@ html {
     #header-nav-menu #link-website .header-icon {
       display: none; } }
 #header-nav-menu #link-resume {
-  display: none !important; }
+  display: block; }
   @media screen and (min-width: 900px) {
     #header-nav-menu #link-resume .header-icon {
       display: none; } }
